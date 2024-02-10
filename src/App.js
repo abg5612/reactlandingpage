@@ -1,23 +1,58 @@
-import logo from './logo.svg';
+import React from "react"
 import './App.css';
+import './Media.css'
+import Navbar from "./components/Navbar"
+import Signup from './components/Signup';
+import Home from './components/Home'
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import Testimonial from "./components/Testimonial";
+import Goal from "./components/Goal";
+import Footer from "./components/Footer";
+
+
+
+const router = createBrowserRouter([
+
+
+  {
+    path: "",
+    element: <Home />,
+  },
+  {
+    path: "footer",
+    element: <Footer />,
+  },
+  {
+    path: "signin",
+    element: <Navbar />,
+  },
+  {
+    path: "signup",
+    element: <Signup />,
+  },
+  {
+    path: "goal",
+    element: <Goal />,
+  },
+  {
+    path: "testimonial",
+    element: <Testimonial />,
+  },
+
+]);
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <h1 className="main-temp-head">Media Tube</h1>
+
+      <React.StrictMode>
+        <RouterProvider router={router} />
+
+      </React.StrictMode>
     </div>
   );
 }

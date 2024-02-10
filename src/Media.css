@@ -1,0 +1,232 @@
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .main-temp-head {
+        padding: 10px;
+        font-weight: 800;
+        font-size: 30px;
+        /* margin-left: 10%; */
+    }
+
+    .signin-form {
+        padding: 0px;
+        margin-top: 50px;
+        display: inline-block;
+        position: relative;
+        left: 10%;
+    }
+
+    .signup-form {
+        padding: 0px;
+        margin-top: 50px;
+        display: inline-block;
+        position: relative;
+        left: 10%;
+    }
+
+    .top-nav {
+        margin-right: auto;
+    }
+
+    .home-header {
+        font-size: 20px;
+    }
+
+    .home-btns {
+        display: inline-flex;
+        margin: 10px 8%;
+    }
+
+    .home-btn2 {
+        width: 150px;
+        text-align: center;
+        background-color: #33363a;
+        padding: 10px 10px;
+        color: #fff;
+        margin-left: 40px;
+    }
+
+    .media-img1 {
+        width: 91%;
+        margin: 0 20px;
+    }
+
+    .play {
+        position: relative;
+        width: 100px;
+        left: 170px;
+        opacity: 0.5;
+        top: 150px;
+    }
+
+    .test-header {
+        font-size: 20px;
+    }
+
+    .media {
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+
+    .test-para {
+        padding: 0px 10px;
+    }
+
+    .test-fearures {
+        display: inline;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .goal-header {
+        font-size: 20px;
+    }
+
+    .goal-para {
+        padding: 0px 10px;
+    }
+
+    .goal-main-sec1 {
+        display: inline;
+        grid-template-columns: auto auto auto;
+        width: 1000px;
+        margin: 50px auto;
+    }
+
+    img.goal-sec1img {
+        width: 95%;
+        margin: 0px 10px;
+    }
+
+    .goal-main-sec1-cont {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    p.goal-main-sec-text3 {
+        color: #8b8b8b;
+        font-size: 16px;
+    }
+
+    img.goal-sec1img {
+        width: 95%;
+        margin: 0px 10px;
+    }
+
+    .goal-main-sec1-img {
+        width: 95%;
+        margin: 10px 10px;
+    }
+
+    img.goal-sec3img {
+        width: 95%;
+        margin: 0px 10px;
+    }
+
+    .goal-main-sec2 {
+        display: inline;
+        margin: 16px auto;
+    }
+
+    .goal-main-sec2-cont {
+        width: auto;
+        padding: 0px 20px;
+        margin-left: 0px;
+    }
+
+    .goal-main-sec3 {
+        display: inline;
+        margin: 16px auto;
+    }
+
+    .goal-main-sec3-cont {
+        width: auto;
+        padding: 0px 20px;
+        margin-left: 0px;
+    }
+
+    .goal-main-sec3-cont {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    .footer-header {
+        font-size: 20px;
+    }
+
+    .footer-para {
+        padding: 0px 10px;
+    }
+
+    .footer-card {
+        display: inline;
+        width: auto;
+        margin-left: 470px;
+        margin-top: 50px;
+        color: #8b8b8b;
+    }
+
+    .card1 {
+        background-color: #25282c;
+        padding: 20px;
+        margin: 10px 10px;
+    }
+
+    .footer-panel {
+        display: inline-block;
+        grid-template-columns: auto auto auto;
+        width: 95%;
+        background-color: #5d5dff;
+        height: 300px;
+        padding: 20px 50px;
+        margin: 0px 10px;
+    }
+
+    .panel-form {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .panel-form button {
+        padding: 10px 10px;
+        background-color: #fff;
+        color: #5d5dff;
+        width: 120px;
+        border: none;
+        margin: 10px 0px;
+    }
+    .footer-list {
+        display: inline;
+        margin-left: 468px;
+        margin-top: 50px;
+        background-color: #25282c;
+    }
+    .footer-list-sec2 ul {
+        padding: 0px 20px;
+    }
+    .footer-list-sec2 {
+        display: inline;
+    }
+    .footer-list-sec1 {
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .home-btn2 {
+        width: 150px;
+        text-align: center;
+        background-color: #33363a;
+        padding: 10px 10px;
+        color: #fff;
+        margin-left: 40px;
+    }
+
+
+
+
+
+
+}
