@@ -70,9 +70,14 @@
         margin-top: 0px;
     }
 
+    .media-vid1 {
+        /* display: none; */
+        width: 95%;
+        margin: 10px;
+    }
     .test-para {
         padding: 0px 10px;
-    }
+    } 
 
     .test-fearures {
         display: inline;

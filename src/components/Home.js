@@ -1,16 +1,15 @@
 import React from 'react'
-import poster from '../Assets/poster.jpg'
+// import poster from '../Assets/poster.jpg'
 import Testimonial from './Testimonial'
 import Goal from './Goal'
 import Footer from './Footer'
 import { Link } from "react-router-dom"
 
-function handleonclick() {
-
-}
 
 
-const home = () => {
+function Home()  {
+
+
 
   return (
     <div>
@@ -30,11 +29,16 @@ const home = () => {
       </div>
 
       <div className="media">
-        <img src='/Images/play.png' className='play' alt='play' onClick={handleonclick()}></img>
-        <img src={poster} alt='poster' className='media-img1'></img>
-        <video controls autoPlay className='media-vid1'>
+        {/* <img src='/Images/play.png' className='play' alt='play' ></img> */}
+        {/* jhe;l; hello mister dj mera gaamn [pleaee le aaj no wine aa] */}
+        {/* <img src={poster} alt='poster' className='media-img1'  ></img> */}
+       
+       
+          <video controls autoPlay className='media-vid1'>
           <source src='/Videos/vid1.mp4' />
         </video>
+        
+
       </div>
 
       <Testimonial />
@@ -48,4 +52,4 @@ const home = () => {
 }
 
 
-export default home
+export default Home
