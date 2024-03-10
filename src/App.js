@@ -4,14 +4,14 @@ import './Media.css'
 import Navbar from "./components/Navbar"
 import Signup from './components/Signup';
 import Home from './components/Home'
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { HashRouter, RouterProvider } from "react-router-dom";
 import Testimonial from "./components/Testimonial";
 import Goal from "./components/Goal";
 import Footer from "./components/Footer";
 
 
 
-const router = createBrowserRouter([
+const router = HashRouter([
 
 
   {
