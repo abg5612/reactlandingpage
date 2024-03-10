@@ -4,7 +4,7 @@ import './Media.css'
 import Navbar from "./components/Navbar"
 import Signup from './components/Signup';
 import Home from './components/Home'
-import { HashRouter, RouterProvider } from "react-router-dom";
+import { HashRouter, Routes } from "react-router-dom";
 import Testimonial from "./components/Testimonial";
 import Goal from "./components/Goal";
 import Footer from "./components/Footer";
@@ -50,7 +50,7 @@ function App() {
       <h1 className="main-temp-head">Media Tube</h1>
 
       <React.StrictMode>
-        <RouterProvider router={router} />
+        <Routes router={router} />
 
       </React.StrictMode>
     </div>
