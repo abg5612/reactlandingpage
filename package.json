@@ -1,7 +1,6 @@
 {
   "name": "landingpage",
   "version": "0.1.0",
-  "homepage": "https://github.com/abg5612/react-landingpage.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
