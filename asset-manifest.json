@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/abg5612/reactlandingpage.git/static/css/main.c84f5a8d.css",
-    "main.js": "/abg5612/reactlandingpage.git/static/js/main.5fcde46e.js",
-    "index.html": "/abg5612/reactlandingpage.git/index.html",
-    "main.c84f5a8d.css.map": "/abg5612/reactlandingpage.git/static/css/main.c84f5a8d.css.map",
-    "main.5fcde46e.js.map": "/abg5612/reactlandingpage.git/static/js/main.5fcde46e.js.map"
+    "main.css": "/reactlandingpage/static/css/main.c84f5a8d.css",
+    "main.js": "/reactlandingpage/static/js/main.3916b7b6.js",
+    "index.html": "/reactlandingpage/index.html",
+    "main.c84f5a8d.css.map": "/reactlandingpage/static/css/main.c84f5a8d.css.map",
+    "main.3916b7b6.js.map": "/reactlandingpage/static/js/main.3916b7b6.js.map"
   },
   "entrypoints": [
     "static/css/main.c84f5a8d.css",
-    "static/js/main.5fcde46e.js"
+    "static/js/main.3916b7b6.js"
   ]
 }
